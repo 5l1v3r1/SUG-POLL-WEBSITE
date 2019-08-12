@@ -1,4 +1,18 @@
-body{
-   
-    background: linear-gradient( rgba(39, 37, 37, 0.5), rgba(124, 114, 114, 0.5) ), url(sug\ logo\ backdrop.jpeg);
+body{ 
+    /* You don't need to use a background image since you don't have a clear image */
+    background: rgba(200, 200, 200, 0.2);
+    /* background: linear-gradient( rgba(39, 37, 37, 0.5), rgba(124, 114, 114, 0.5) ), url(sug\ logo\ backdrop.jpeg); */
+}
+
+.card {
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.1);
+}
+
+.form-horizontal {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    margin: 0;
 }
